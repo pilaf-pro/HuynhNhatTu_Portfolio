@@ -8,23 +8,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import SearchIcon from '@mui/icons-material/Search';
 import ClearIcon from '@mui/icons-material/Clear';
-
-interface GithubLinkItem {
-  label: string;
-  url: string;
-}
-
-interface Project {
-  id: string;
-  title: string;
-  description: string;
-  thumbnail: string;
-  tags: string[];
-  githubLink?: string;
-  githubLinks?: GithubLinkItem[];
-  demoLink?: string;
-  isDeployed?: boolean;
-}
+import type { Project } from '../../types/project';
 
 const projectsData = projectsRawData as Project[];
 

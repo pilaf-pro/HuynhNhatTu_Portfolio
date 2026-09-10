@@ -9,19 +9,7 @@ import BuildIcon from '@mui/icons-material/Build';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import { motion } from 'framer-motion';
 import skillsData from '../../data/skills.json';
-
-interface SkillItem {
-  name: string;
-  level?: number;
-}
-
-interface SkillCategory {
-  id: string;
-  title: string;
-  icon: string;
-  gradient: string;
-  skills: SkillItem[];
-}
+import type { SkillCategory } from '../../types/skill';
 
 const iconMap: Record<string, React.ReactNode> = {
   Code: <CodeIcon fontSize="medium" />,
