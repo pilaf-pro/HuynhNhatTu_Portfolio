@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-800 font-sans antialiased selection:bg-blue-500/20 selection:text-blue-700 transition-colors duration-300;
+    font-family: 'Plus Jakarta Sans', 'Outfit', sans-serif;
+  }
+
+  .dark body {
+    @apply bg-slate-950 text-slate-100 selection:bg-blue-500/30 selection:text-blue-300;
+  }
+}
+
+/* Custom Scrollbar matching MLN122 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+.dark ::-webkit-scrollbar-track {
+  background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #334155;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* Dark Mode Theme Support Overrides */
+.dark header {
+  @apply bg-slate-900/85 border-slate-800/80 shadow-slate-950/20 text-slate-100;
+}
+
+.dark footer {
+  @apply bg-slate-900/90 border-slate-800/80 text-slate-300;
+}
+
+.dark section h1,
+.dark section h2,
+.dark section h3 {
+  @apply text-slate-100;
+}
+
+.dark section p {
+  @apply text-slate-300;
+}
+
+.dark input {
+  @apply bg-slate-900 border-slate-800 text-slate-100 placeholder-slate-500 focus:border-blue-500;
+}
+
+.dark .bg-white,
+.dark .bg-white\/80,
+.dark .bg-white\/90,
+.dark .bg-white\/95 {
+  @apply bg-slate-900 border-slate-800 text-slate-100;
+}
+
+.dark .bg-slate-50 {
+  @apply bg-slate-950 text-slate-100;
+}
+
+.dark .border-slate-200,
+.dark .border-slate-200\/80,
+.dark .border-slate-200\/90,
+.dark .border-slate-200\/60 {
+  @apply border-slate-800;
+}
+
+.dark .text-slate-900,
+.dark .text-slate-800,
+.dark .text-slate-700 {
+  @apply text-slate-100;
+}
+
+.dark .text-slate-600,
+.dark .text-slate-500 {
+  @apply text-slate-300;
+}
+
+.dark .bg-slate-100 {
+  @apply bg-slate-800 text-slate-200 border-slate-700;
+}
+
+/* Cursor Blink Animation for Typewriter effect */
+@keyframes cursorBlink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-cursor-blink {
+  animation: cursorBlink 0.85s infinite;
+}

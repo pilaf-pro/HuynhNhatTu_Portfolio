@@ -1,0 +1,96 @@
+[
+  {
+    "id": "prj-lowca",
+    "title": "Lowca – HCM Digitalized Street Food Application",
+    "description": "Built multi-role dashboards with RBAC. Developed admin portal with detailed analytic dashboard. Created secure auth flows with JWT, Google/Facebook OAuth, and phone-based OTP verification. Built real-time order notifications.",
+    "thumbnail": "/assets/images/projects/lowca-thumbnail.png",
+    "tags": [
+      "ReactJS",
+      "React Native",
+      "Expo",
+      "Vite",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "SignalR",
+      "Recharts",
+      "OAuth",
+      "Openmap"
+    ],
+    "githubLinks": [
+      {
+        "label": "FE Web",
+        "url": "https://github.com/pilaf-pro/HCM-Digitalized-Street-Food-FE-Web"
+      },
+      {
+        "label": "FE Mobile",
+        "url": "https://github.com/pilaf-pro/HCM-Digitalized-Street-Food-FE-Mobile"
+      }
+    ],
+    "githubLink": "https://github.com/pilaf-pro/HCM-Digitalized-Street-Food-FE-Web",
+    "demoLink": "",
+    "isDeployed": false
+  },
+  {
+    "id": "prj-kado",
+    "title": "Kado – Trading Card Game Collector Platform",
+    "description": "Built cross-platform mobile app covering collection management, deck builder, and community feed. Implemented Card Scanner using Expo Camera. Developed Marketplace. Built web admin dashboard with comprehensive modules.",
+    "thumbnail": "/assets/images/projects/kado-thumbnail.png",
+    "tags": [
+      "ReactJS",
+      "Vite",
+      "Tailwind CSS",
+      "Recharts",
+      "React Native",
+      "Expo",
+      "NativeWind",
+      "Expo Camera",
+      "WebSocket"
+    ],
+    "githubLinks": [
+      {
+        "label": "FE Mobile",
+        "url": "https://github.com/pilaf-pro/EXE201_FE_MOBILE"
+      },
+      {
+        "label": "FE Web",
+        "url": "https://github.com/pilaf-pro/EXE201_FE_WEB"
+      }
+    ],
+    "githubLink": "https://github.com/pilaf-pro/EXE201_FE_WEB",
+    "demoLink": "https://exe-201-fe-web.vercel.app/login",
+    "isDeployed": true
+  },
+  {
+    "id": "prj-smoking",
+    "title": "Smoking Cessation Support Platform",
+    "description": "Developed Quit Plan Generator with system algorithm. Built Progress Tracking & Analytics Dashboard. Engineered automated Periodic Notification System utilizing Node-cron and Nodemailer. Architected RESTful APIs with Express.js.",
+    "thumbnail": "/assets/images/projects/smoking-thumbnail.png",
+    "tags": [
+      "ReactJS",
+      "Vite",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Chart.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Node-cron",
+      "Nodemailer",
+      "VNPay",
+      "Socket.io"
+    ],
+    "githubLinks": [
+      {
+        "label": "FE",
+        "url": "https://github.com/pilaf-pro/SDN_FE"
+      },
+      {
+        "label": "BE",
+        "url": "https://github.com/pilaf-pro/SDN_BE"
+      }
+    ],
+    "githubLink": "https://github.com/pilaf-pro/SDN_FE",
+    "demoLink": "",
+    "isDeployed": false
+  }
+]

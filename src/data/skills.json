@@ -1,0 +1,69 @@
+{
+  "categories": [
+    {
+      "id": "programming-languages",
+      "title": "Programming Languages",
+      "icon": "Code",
+      "gradient": "from-blue-600 to-cyan-600",
+      "skills": [
+        { "name": "JavaScript", "level": 90 },
+        { "name": "TypeScript", "level": 85 }
+      ]
+    },
+    {
+      "id": "frameworks-libraries",
+      "title": "Frameworks & Libraries",
+      "icon": "Terminal",
+      "gradient": "from-indigo-600 to-blue-600",
+      "skills": [
+        { "name": "ReactJS", "level": 90 },
+        { "name": "React Native", "level": 85 },
+        { "name": "Vite", "level": 90 },
+        { "name": "Tailwind CSS", "level": 90 },
+        { "name": "Expo", "level": 85 },
+        { "name": "Node.js", "level": 75 },
+        { "name": "Express.js", "level": 75 }
+      ]
+    },
+    {
+      "id": "databases",
+      "title": "Databases",
+      "icon": "Storage",
+      "gradient": "from-purple-600 to-indigo-600",
+      "skills": [
+        { "name": "MongoDB", "level": 80 },
+        { "name": "PostgreSQL (Basic)", "level": 60 }
+      ]
+    },
+    {
+      "id": "ai-assisted-tools",
+      "title": "AI-Assisted Dev Tools",
+      "icon": "Psychology",
+      "gradient": "from-amber-500 to-orange-500",
+      "skills": [
+        { "name": "Claude Code" },
+        { "name": "ChatGPT" },
+        { "name": "Antigravity" }
+      ]
+    },
+    {
+      "id": "tools-devops",
+      "title": "Version Control, DevOps & Tools",
+      "icon": "Build",
+      "gradient": "from-emerald-600 to-teal-600",
+      "skills": [
+        { "name": "Git / GitHub" },
+        { "name": "GitHub Actions" },
+        { "name": "Postman / Swagger / Scalar" },
+        { "name": "REST API Integration" },
+        { "name": "Docker (Basic)" }
+      ]
+    }
+  ],
+  "softSkills": [
+    "Teamwork",
+    "Problem-solving",
+    "Time Management",
+    "Critical Thinking"
+  ]
+}
